@@ -1,3 +1,13 @@
+<?php
+
+require_once('./classes/database.php');
+
+$con = new database();
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,32 +15,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bini Official</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="./css/style.css?v=<?php echo time();?>">
 
-    <link rel="stylesheet" href="/bootstrap-4.5.3-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
+
 <body>
 
-    <nav>
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="image/BINI.png" alt=""></a>
-            </div>
-            <div class="navbar-lists">
-                <ul class="navbar-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="basket.html">Basket</a></li>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php include("navbar.php") ?>
 
     <div class="main-content">
 
@@ -75,8 +70,8 @@
     
 </body>
 
-<script src="/js/script.js"></script>
-<script src="/bootstrap-4.5.3-dist/js/bootstrap.js"></script>
-<script src="/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+<script src="./js/script.js"></script>
+<script src="./bootstrap-4.5.3-dist/js/bootstrap.js"></script>
+<script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 
 </html>

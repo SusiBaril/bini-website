@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    background-image: url('/image/pagegb.jpg'); /* Replace with your image path */
+    background-image: url('../image/pagegb.jpg');
     background-size: cover; /* Ensures the image covers the entire body */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */

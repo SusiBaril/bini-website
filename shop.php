@@ -5,31 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bini Official</title>
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css?v=<?php echo time();?>">
 
-    <link rel="stylesheet" href="/bootstrap-4.5.3-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
+
 <body>
 
-    <nav>
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="image/BINI.png" alt=""></a>
-            </div>
-            <div class="navbar-lists">
-                <ul class="navbar-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="basket.html">Basket</a></li>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php include("navbar.php") ?>
 
     <div class="main-content">
         
@@ -48,7 +34,7 @@
                     <div class="card-container my-5">
                             <div class="card" style="border-radius: 10px; position: relative;">
                                 <div class="card-body">
-                                    <img src="/image/bucket-hat-bio-white.webp" alt="" class="card-img-top">
+                                    <img src="./image/bucket-hat-bio-white.webp" alt="" class="card-img-top">
                                     <div class="card-titles">
                                         <h4 class="card-title"></h4>
                                         <h4 class="card-title">₱2,120</h4>
@@ -58,7 +44,7 @@
                             </div>
                             <div class="card" style="border-radius: 10px; position: relative;">
                                 <div class="card-body">
-                                    <img src="/image/sweatshirt-black.webp" alt="" class="card-img-top">
+                                    <img src="./image/sweatshirt-black.webp" alt="" class="card-img-top">
                                     <div class="card-titles">
                                         <h4 class="card-title"></h4>
                                         <h4 class="card-title">₱3,830</h4>
@@ -68,7 +54,7 @@
                             </div>
                             <div class="card" style="border-radius: 10px; position: relative;">
                                 <div class="card-body">
-                                    <img src="/image/t-shirt-faded-black.webp" alt="" class="card-img-top">
+                                    <img src="./image/t-shirt-faded-black.webp" alt="" class="card-img-top">
                                     <div class="card-titles">
                                         <h4 class="card-title"></h4>
                                         <h4 class="card-title">₱3,240</h4>
@@ -78,7 +64,7 @@
                             </div>
                             <div class="card" style="border-radius: 10px; position: relative;">
                                 <div class="card-body">
-                                    <img src="/image/tote-bag-black.webp" alt="" class="card-img-top">
+                                    <img src="./image/tote-bag-black.webp" alt="" class="card-img-top">
                                     <div class="card-titles">
                                         <h4 class="card-title"></h4>
                                         <h4 class="card-title">₱2,180</h4>
