@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --font:"Raleway", serif;
+}
+
+body {
+    background-image: url('/image/pagegb.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+nav {
+    position: sticky;
+    top: 0;  /* Stick the navbar to the top */
+    width: 100%;  /* Ensure navbar spans the entire width */
+    z-index: 1000;  /* Make sure it stays on top */
+    background-color: white;  /* Optional: Add a background for visibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Optional: Add a subtle shadow */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    height: 80px;
+}
+
+.logo img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 15px;
+    font-family: "Raleway", serif;
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.card {
+    width: 20rem;
+    height: 25rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px 10px 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.card img {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-titles{
+    text-align: left;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    color: var(--bg-black-100);
+    margin-bottom: 0.5rem;
+}
+
+.card-body a{
+    color: #191715;
+}
+
+.card-body a:hover{
+    color: #191715;
+}
+
+.page-title{
+    margin-left: 15.5rem;
+    margin-right: 15.5rem;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.page-title input{
+    border-radius: 10px;
+    border: none;
+    width: 10rem;
+    text-align: end;
+}
+
+.image-banner img{
+    width: 100%;
+}
+
+.about-bini {
+    margin: 10rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 2rem; 
+    margin-bottom: 20rem;
+}
+
+.about-img img {
+    width: 25rem;
+    margin: 0;
+    display: block;
+    border: 20px solid white;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.about-title {
+    text-align: center;
+    color: white;
+}
+
+.about-body {
+    width: 25rem;
+    text-align: justify;
+}
+
+/* image gallery */
+
