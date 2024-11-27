@@ -32,7 +32,7 @@
 
                 <div class="products">
                     <div class="card-container my-5">
-                            <div class="card" style="border-radius: 10px; position: relative;">
+                            <div class="card" style="border-radius: 10px; position: relative;"  onclick="window.location.href='product-view';">
                                 <div class="card-body">
                                     <img src="./image/bucket-hat-bio-white.webp" alt="" class="card-img-top">
                                     <div class="card-titles">
