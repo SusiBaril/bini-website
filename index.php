@@ -18,7 +18,6 @@ session_start();
     <link rel="stylesheet" href="./css/style.css?v=<?php echo time();?>">
 
     <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
@@ -72,6 +71,5 @@ session_start();
 
 <script src="./js/script.js"></script>
 <script src="./bootstrap-4.5.3-dist/js/bootstrap.js"></script>
-<script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 
 </html>

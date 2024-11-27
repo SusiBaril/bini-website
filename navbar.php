@@ -13,7 +13,6 @@ $isLoggedIn = isset($_SESSION['user_id']); // Adjust 'user_id' to the appropriat
                 <ul class="navbar-list">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="shop.php">Shop</a></li>
-                    <li><a href="#about">About</a></li>
                     <li><a href="basket.php">Basket</a></li>
                     <?php if ($isLoggedIn): ?>
                         <li><a href="logout.php">Logout</a></li>
